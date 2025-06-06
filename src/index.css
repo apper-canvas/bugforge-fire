@@ -1,0 +1,49 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  
+  body {
+    @apply bg-primary text-ghost font-mono;
+    background-image: 
+      linear-gradient(90deg, transparent 49%, rgba(42, 42, 42, 0.1) 50%, transparent 51%),
+      linear-gradient(rgba(42, 42, 42, 0.1) 1px, transparent 1px);
+    background-size: 2px 2px, 100% 2px;
+  }
+}
+
+@layer utilities {
+  .terminal-glow {
+    text-shadow: 0 0 5px #00FF41, 0 0 10px #00FF41, 0 0 15px #00FF41;
+  }
+  
+  .scan-lines::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      transparent 0%,
+      rgba(0, 255, 65, 0.03) 50%,
+      transparent 100%
+    );
+    pointer-events: none;
+    animation: scan-line 2s linear infinite;
+  }
+  
+  .brutal-border {
+    border: 2px solid #2A2A2A;
+  }
+  
+  .ascii-divider::before {
+    content: '═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════';
+    @apply text-steel text-xs block overflow-hidden whitespace-nowrap;
+  }
+}

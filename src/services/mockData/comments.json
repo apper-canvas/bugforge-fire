@@ -1,0 +1,107 @@
+[
+  {
+    "id": 2001,
+    "bugId": 1001,
+    "author": "Sarah Johnson",
+    "content": "Started investigating the memory leak. Initial profiling shows the issue occurs in the data aggregation phase. Implementing memory monitoring hooks.",
+    "createdAt": "2024-01-16T09:15:00Z"
+  },
+  {
+    "id": 2002,
+    "bugId": 1001,
+    "author": "Alex Chen",
+    "content": "Memory usage spikes consistently when processing datasets larger than 500MB. Suspect object references aren't being properly released.",
+    "createdAt": "2024-01-16T10:30:00Z"
+  },
+  {
+    "id": 2003,
+    "bugId": 1001,
+    "author": "System",
+    "content": "Status changed from TODO to IN_PROGRESS",
+    "createdAt": "2024-01-16T11:00:00Z"
+  },
+  {
+    "id": 2004,
+    "bugId": 1002,
+    "author": "Mike Rodriguez",
+    "content": "Reviewing the authentication flow. The issue appears to be in the JWT token validation middleware. Need to patch immediately.",
+    "createdAt": "2024-01-14T17:20:00Z"
+  },
+  {
+    "id": 2005,
+    "bugId": 1004,
+    "author": "David Kim",
+    "content": "Implemented connection pooling optimizations. Testing with increased timeout values and retry logic.",
+    "createdAt": "2024-01-15T11:45:00Z"
+  },
+  {
+    "id": 2006,
+    "bugId": 1004,
+    "author": "DevOps Team",
+    "content": "Database performance metrics show improvement after the connection pool changes. Monitoring for 24 hours before marking as resolved.",
+    "createdAt": "2024-01-15T14:20:00Z"
+  },
+  {
+    "id": 2007,
+    "bugId": 1005,
+    "author": "Emily Wong",
+    "content": "Fixed tax calculation logic for international orders. Applied correct tax rates for EU and APAC regions.",
+    "createdAt": "2024-01-14T09:45:00Z"
+  },
+  {
+    "id": 2008,
+    "bugId": 1005,
+    "author": "Finance Team",
+    "content": "Verified the fix with test transactions. All tax calculations are now accurate. Ready for deployment.",
+    "createdAt": "2024-01-14T11:30:00Z"
+  },
+  {
+    "id": 2009,
+    "bugId": 1007,
+    "author": "Jenny Adams",
+    "content": "Email service integration restored. Updated API credentials and tested password reset flow successfully.",
+    "createdAt": "2024-01-12T15:10:00Z"
+  },
+  {
+    "id": 2010,
+    "bugId": 1008,
+    "author": "Carlos Martinez",
+    "content": "Progress bar now properly tracks upload status. Added WebSocket connection for real-time progress updates.",
+    "createdAt": "2024-01-11T12:30:00Z"
+  },
+  {
+    "id": 2011,
+    "bugId": 1010,
+    "author": "Kevin Lee",
+    "content": "Cleaned up all console warnings. Removed deprecated API calls and unused imports.",
+    "createdAt": "2024-01-09T11:15:00Z"
+  },
+  {
+    "id": 2012,
+    "bugId": 1012,
+    "author": "Amy Foster",
+    "content": "Working on CSS transitions for dark mode toggle. Implementing smooth color transitions across all components.",
+    "createdAt": "2024-01-16T10:20:00Z"
+  },
+  {
+    "id": 2013,
+    "bugId": 1014,
+    "author": "Diana Ross",
+    "content": "Form validation state management has been refactored. Error messages now clear properly when fields become valid.",
+    "createdAt": "2024-01-15T16:40:00Z"
+  },
+  {
+    "id": 2014,
+    "bugId": 1003,
+    "author": "Lisa Park",
+    "content": "Analyzing mobile layout issues. The navigation component needs responsive breakpoint adjustments.",
+    "createdAt": "2024-01-13T15:30:00Z"
+  },
+  {
+    "id": 2015,
+    "bugId": 1015,
+    "author": "Frank Miller",
+    "content": "Accessibility audit complete. Need to implement proper ARIA attributes and keyboard event handlers for dropdown navigation.",
+    "createdAt": "2024-01-12T18:45:00Z"
+  }
+]
